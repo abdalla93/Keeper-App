@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const User = require("../models/User");
 const config = require("config");
 const jwt = require("jsonwebtoken");
-const JWT_SECRET = config.get("jwtSecret");
+const JWT_SECRET = config.get("JWT_SECRET") || process.env.JWT_SECRET;
 
 router.get("/", async (req, res) => {
   try {
