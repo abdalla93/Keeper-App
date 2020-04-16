@@ -1,0 +1,4 @@
+{
+  "MONGO_URI": "mongodb+srv://keeperAdmin:test123@keeper-xb3eb.mongodb.net/notes?retryWrites=true&w=majority",
+  "jwtSecret": "My_new_Secret"
+}
